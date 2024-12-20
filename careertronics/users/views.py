@@ -11,3 +11,19 @@ def AboutView(request):
 
 def ContactView(request):
     return render(request,"users/contact.html")
+
+
+def CancelView(request):
+    return render(request,"users/cancel.html")
+
+
+def PolicyView(request):
+    return render(request,"users/policy.html")
+
+
+def TermsView(request):
+    return render(request,"users/terms.html")
+
+
+def ShippingView(request):
+    return render(request,"users/shipping.html")
